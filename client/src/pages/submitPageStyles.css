@@ -1,0 +1,21 @@
+.submitPage-form {
+    padding: 50px;
+}
+
+.submitPage-textfield {
+    margin-bottom: 10px;
+}
+
+.submitPage-submitButtonWrapper {
+    width: 100px;
+}
+
+@media only screen and (max-width: 396px) {
+    .submitPage-form {
+        padding: 20px;
+    }
+
+    .submitPage-submitButtonWrapper {
+        width: 100%;
+    }
+}
