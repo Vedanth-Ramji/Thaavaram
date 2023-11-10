@@ -6,11 +6,14 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 
+import AnnouncementBanner from '../components/announcementBanner';
+
 import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
     <div className="homepage">
+      <AnnouncementBanner />
       <div className="homepage_section_2">
         <img
           alt="img"
