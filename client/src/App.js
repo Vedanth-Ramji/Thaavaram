@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Header from "./components/header";
+import Footer from "./components/footer";
 
 import HomePage from "./pages/homePage";
 import SubmitPage from "./pages/submitPage";
@@ -23,15 +24,18 @@ const App = () => {
   }, [dispatch]);
 
   return (
-    <Router>
-      <Header />
-      <Routes>
-        <Route path="/" exact element={<HomePage />} />
-        <Route path="/submit" element={<SubmitPage />} />
-        <Route path="/browse" element={<BrowsePage />} />
-        <Route path="/register" element={<RegisterPage />} />
-      </Routes>
-    </Router>
+    <div className='app'>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" exact element={<HomePage />} />
+          <Route path="/submit" element={<SubmitPage />} />
+          <Route path="/browse" element={<BrowsePage />} />
+          <Route path="/register" element={<RegisterPage />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </div>
   );
 };
 

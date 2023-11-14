@@ -1,4 +1,8 @@
 .announcementBanner {
     text-align: center;
-    padding: 12px 5px 0px 5px;
+    padding: 12px 5px 5px 5px;
+}
+
+.announcementBanner h6 {
+    font-size: large;
 }

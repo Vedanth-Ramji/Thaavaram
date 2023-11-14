@@ -121,9 +121,14 @@ function HomePage() {
             ever world congress on plant AMR on 5th June, 2024 at Boston
             University. Registration is free!
           </p>
-          <Link to="/register">
-            <Button style={{ fontSize: 13 }} size="large" variant="contained">
+          <a href="https://forms.gle/HZSMQjScvGx7TwvA7" target="_blank">
+            <Button style={{ fontSize: 13, margin: 10 }} size="large" variant="contained">
               Register
+            </Button>
+          </a>
+          <Link to="/register">
+            <Button style={{ fontSize: 13, margin: 10 }} size="large" variant="contained">
+              Learn More
             </Button>
           </Link>
         </div>
