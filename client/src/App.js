@@ -31,7 +31,7 @@ const App = () => {
           <Route path="/" exact element={<HomePage />} />
           <Route path="/submit" element={<SubmitPage />} />
           <Route path="/browse" element={<BrowsePage />} />
-          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/world-congress" element={<RegisterPage />} />
         </Routes>
         <Footer />
       </Router>

@@ -8,17 +8,18 @@ const RegisterPage = () => {
           <h1>
             Welcome to the First World Congress on Plant Antimicrobial
             Resistance (AMR)
-            <p style={{ fontSize: "13px", padding: "10px 0px 0px 0px" }}>
+            <p style={{ fontSize: "16px", padding: "10px 0px 0px 0px" }}>
               5th June, 2024 | 9am to 2pm | 43 Hawes St, Brookline, MA 02446,
               USA
             </p>
           </h1>
           <p>
-            We at Thaavaram are delighted to invite you to the World Congress on
-            Plant AMR, a pioneering event that brings together experts,
-            researchers, and enthusiasts from around the globe to explore and
-            address the critical challenges posed by antimicrobial resistance in
-            the plant and environment sector.
+            A pioneering event that brings together experts, researchers, and
+            enthusiasts from around the globe
+          </p>
+          <p style={{ marginTop: -18 }}>
+            Explore and address the critical challenges posed by antimicrobial
+            resistance in the plant and environment sector
           </p>
         </div>
         <div className="information">
@@ -32,6 +33,21 @@ const RegisterPage = () => {
             share knowledge, exchange ideas, and foster partnerships that will
             drive innovative solutions.
           </p>
+        </div>
+        <div className="schedule">
+          <h2>Agenda</h2>
+          <div className="scheduleTiming">
+            <h3>8:30am - 9:30am EST</h3>
+            <p>Registration and Breakfast</p>
+            <h3>9:30am - 10:45am EST</h3>
+            <p>Session 1: One Health Initiative, Surveillance Systems and Sharing Perspectives</p>
+            <h3>10:45am - 11:15am EST</h3>
+            <p>Coffee and Networking Break</p>
+            <h3>10:45am - 12:30pm EST</h3>
+            <p>Session 2: Road Ahead and Start-up Showcase</p>
+            <h3>12:30pm - 2:00pm EST</h3>
+            <p>Closing Remarks and Lunch</p>
+          </div>
         </div>
         <div className="organization">
           <h2>Date and Location</h2>
@@ -62,11 +78,8 @@ const RegisterPage = () => {
           </div>
         </div>
       </div>
-      <div
-        style={{marginTop: 10}}
-        className="registerPage_registerSection"
-      >
-        <h2>Register</h2>
+      <div style={{ marginTop: 10 }} className="registerPage_registerSection">
+        <h2 style={{ textAlign: "center" }}>Register</h2>
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSfzbo9eJcLPsCID8f5h6EC9-N5VG-S7XN_GZg1zBxlq65Q9YA/viewform?embedded=true"
           frameborder="0"

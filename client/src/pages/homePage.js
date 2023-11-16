@@ -126,7 +126,7 @@ function HomePage() {
               Register
             </Button>
           </a>
-          <Link to="/register">
+          <Link to="/world-congress">
             <Button style={{ fontSize: 13, margin: 10 }} size="large" variant="contained">
               Learn More
             </Button>
