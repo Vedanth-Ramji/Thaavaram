@@ -9,7 +9,7 @@ const RegisterPage = () => {
             Welcome to the First World Congress on Plant Antimicrobial
             Resistance (AMR)
             <p style={{ fontSize: "16px", padding: "10px 0px 0px 0px" }}>
-              5th June, 2024 | 9am to 2pm | 43 Hawes St, Brookline, MA 02446,
+              5th June, 2024 | 9am to 2pm EST | 43 Hawes St, Brookline, MA 02446,
               USA
             </p>
           </h1>
