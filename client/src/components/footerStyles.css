@@ -1,0 +1,31 @@
+.footer {
+    margin-top: auto;
+    border-top: 0.5px solid black;
+    bottom: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_text {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.footer h1 {
+    text-align: left;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.brand {
+    color: black;
+    text-decoration: none;
+}
+
+.brand:hover {
+    color: blue;
+}
