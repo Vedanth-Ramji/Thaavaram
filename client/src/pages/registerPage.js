@@ -9,7 +9,7 @@ const RegisterPage = () => {
             Welcome to the First World Congress on Plant Antimicrobial
             Resistance (AMR)
             <p style={{ fontSize: "16px", padding: "10px 0px 0px 0px" }}>
-              5th June, 2024 | 8:30am to 2pm EST | 43 Hawes St, Brookline, MA 02446,
+              5th June, 2024 | 12pm to 4:30pm EST | 43 Hawes St, Brookline, MA 02446,
               USA
             </p>
           </h1>
@@ -37,16 +37,14 @@ const RegisterPage = () => {
         <div className="schedule">
           <h2>Agenda</h2>
           <div className="scheduleTiming">
-            <h3>8:30am - 9:30am EST</h3>
-            <p>Registration and Breakfast</p>
-            <h3>9:30am - 10:45am EST</h3>
+            <h3>12pm - 1pm EST</h3>
+            <p>Registration and Lunch</p>
+            <h3>1pm - 2:15pm EST</h3>
             <p>Session 1: One Health Initiative, Surveillance Systems and Sharing Perspectives</p>
-            <h3>10:45am - 11:15am EST</h3>
+            <h3>2:15pm - 3pm EST</h3>
             <p>Coffee and Networking Break</p>
-            <h3>10:45am - 12:30pm EST</h3>
+            <h3>3pm - 4:30pm EST</h3>
             <p>Session 2: Road Ahead and Start-up Showcase</p>
-            <h3>12:30pm - 2:00pm EST</h3>
-            <p>Closing Remarks and Lunch</p>
           </div>
         </div>
         <div className="organization">
