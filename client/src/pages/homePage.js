@@ -139,6 +139,13 @@ function HomePage() {
         />
       </div>
 
+      <div className="homepage_section_5">
+        <h2 className="homepage_section_3_title">Our Partners</h2>
+        <a href="https://pratibhaposhak.in/" target="_blank">
+          <img style={{padding: 20}} width={300} src={require("../assets/pratibha_poshak_logo.png")} alt="Pratibha Poshak" />
+        </a>
+      </div>
+
       <div className="homepage_section_4">
         <div className="homepage_section_4_submit">
           <h2 className="homepage_section_3_title">Submit</h2>
