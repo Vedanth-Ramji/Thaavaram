@@ -144,6 +144,12 @@ function HomePage() {
         <a href="https://pratibhaposhak.in/" target="_blank">
           <img style={{padding: 20}} width={300} src={require("../assets/pratibha_poshak_logo.png")} alt="Pratibha Poshak" />
         </a>
+        <a href="https://www.amr-insights.eu/about-us/meet-our-ambassadors-500/#:~:text=Vedanth%20Ramji%20is,of%20Technology%2C%20Australia."  target="_blank">
+          <img style={{padding: 20}} width={300} src={require("../assets/amrinsightslogo.png")} alt="AMR Insights" />
+        </a>
+        <a href="https://www.fao.org/antimicrobial-resistance/background/fao-role/renofarm/en/"  target="_blank">
+          <img style={{padding: 20}} width={250} src={require("../assets/unrenofarmlogo.gif")} alt="AMR Insights" />
+        </a>
       </div>
 
       <div className="homepage_section_4">
