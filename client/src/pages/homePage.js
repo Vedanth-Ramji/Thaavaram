@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 function HomePage() {
   return (
     <div className="homepage">
-      <AnnouncementBanner />
+      {/* <AnnouncementBanner /> */}
       <div className="homepage_section_2">
         <img
           alt="img"
@@ -113,7 +113,7 @@ function HomePage() {
         </div>
       </div>
 
-      <div className="homepage_section_2 announcement">
+      {/* <div className="homepage_section_2 announcement">
         <div className="homepage_section_2_txt">
           <h2>First World Congress on AMR Incidence in Plants</h2>
           <p>
@@ -137,20 +137,7 @@ function HomePage() {
           className="homepage_section_2_img"
           src={require("../assets/conference.jpg")}
         />
-      </div>
-
-      <div className="homepage_section_5">
-        <h2 className="homepage_section_3_title">Our Partners</h2>
-        <a href="https://pratibhaposhak.in/" target="_blank">
-          <img style={{padding: 20}} width={300} src={require("../assets/pratibha_poshak_logo.png")} alt="Pratibha Poshak" />
-        </a>
-        <a href="https://www.amr-insights.eu/about-us/meet-our-ambassadors-500/#:~:text=Vedanth%20Ramji%20is,of%20Technology%2C%20Australia."  target="_blank">
-          <img style={{padding: 20}} width={300} src={require("../assets/amrinsightslogo.png")} alt="AMR Insights" />
-        </a>
-        <a href="https://www.fao.org/antimicrobial-resistance/background/fao-role/renofarm/en/"  target="_blank">
-          <img style={{padding: 20}} width={250} src={require("../assets/unrenofarmlogo.gif")} alt="AMR Insights" />
-        </a>
-      </div>
+      </div> */}
 
       <div className="homepage_section_4">
         <div className="homepage_section_4_submit">
@@ -173,6 +160,19 @@ function HomePage() {
             </Button>
           </Link>
         </div>
+      </div>
+
+      <div className="homepage_section_5">
+        <h2 className="homepage_section_3_title">Our Partners</h2>
+        <a href="https://pratibhaposhak.in/" target="_blank">
+          <img style={{padding: 20}} width={300} src={require("../assets/pratibha_poshak_logo.png")} alt="Pratibha Poshak" />
+        </a>
+        <a href="https://www.amr-insights.eu/about-us/meet-our-ambassadors-500/#:~:text=Vedanth%20Ramji%20is,of%20Technology%2C%20Australia."  target="_blank">
+          <img style={{padding: 20}} width={300} src={require("../assets/amrinsightslogo.png")} alt="AMR Insights" />
+        </a>
+        <a href="https://www.fao.org/antimicrobial-resistance/background/fao-role/renofarm/en/"  target="_blank">
+          <img style={{padding: 20}} width={250} src={require("../assets/unrenofarmlogo.gif")} alt="AMR Insights" />
+        </a>
       </div>
     </div>
   );

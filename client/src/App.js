@@ -13,6 +13,7 @@ import HomePage from "./pages/homePage";
 import SubmitPage from "./pages/submitPage";
 import BrowsePage from "./pages/browsePage";
 import RegisterPage from "./pages/registerPage";
+import TeamPage from "./pages/teamPage";
 
 import { getSubmissions } from "./actions/submissionsActions";
 
@@ -32,6 +33,7 @@ const App = () => {
           <Route path="/submit" element={<SubmitPage />} />
           <Route path="/browse" element={<BrowsePage />} />
           <Route path="/world-congress" element={<RegisterPage />} />
+          <Route path="/team" element={<TeamPage />} />
         </Routes>
         <Footer />
       </Router>
