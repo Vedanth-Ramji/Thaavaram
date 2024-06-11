@@ -163,7 +163,7 @@ function HomePage() {
       </div>
 
       <div className="homepage_section_5">
-        <h2 className="homepage_section_3_title">Our Partners</h2>
+        <h2 className="homepage_section_3_title">Our Partners & Supporters</h2>
         <a href="https://pratibhaposhak.in/" target="_blank">
           <img style={{padding: 20}} width={300} src={require("../assets/pratibha_poshak_logo.png")} alt="Pratibha Poshak" />
         </a>
@@ -172,6 +172,9 @@ function HomePage() {
         </a>
         <a href="https://www.fao.org/antimicrobial-resistance/background/fao-role/renofarm/en/"  target="_blank">
           <img style={{padding: 20}} width={250} src={require("../assets/unrenofarmlogo.gif")} alt="AMR Insights" />
+        </a>
+        <a href="https://www.kidsforsdgs.org/vedanth-ramji"  target="_blank">
+          <img style={{padding: 20}} width={350} src={require("../assets/kids_for_sdgs.jpg")} alt="AMR Insights" />
         </a>
       </div>
 
