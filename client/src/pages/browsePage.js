@@ -31,7 +31,7 @@ const BrowsePage = () => {
             <TableCell>Antimicrobial Drugs</TableCell>
             <TableCell>Ineffective Antimicrobial Drugs</TableCell>
             <TableCell>Location</TableCell>
-            <TableCell>Time</TableCell>
+            {/* <TableCell>Time</TableCell> */}
           </TableRow>
         </TableHead>
 
@@ -65,9 +65,9 @@ const BrowsePage = () => {
               <TableCell align="left">
                 {submission.locationOfCollection}
               </TableCell>
-              <TableCell align="left">
+              {/* <TableCell align="left">
                 {new Date(submission.createdAt).toDateString()}
-              </TableCell>
+              </TableCell> */}
             </TableRow>
           ))}
         </TableBody>

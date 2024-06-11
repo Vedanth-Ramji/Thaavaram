@@ -164,28 +164,29 @@ function HomePage() {
 
       <div className="homepage_section_5">
         <h2 className="homepage_section_3_title">Our Partners & Supporters</h2>
+
         <a href="https://pratibhaposhak.in/" target="_blank">
           <img style={{padding: 20}} width={300} src={require("../assets/pratibha_poshak_logo.png")} alt="Pratibha Poshak" />
         </a>
         <a href="https://www.amr-insights.eu/about-us/meet-our-ambassadors-500/#:~:text=Vedanth%20Ramji%20is,of%20Technology%2C%20Australia."  target="_blank">
           <img style={{padding: 20}} width={300} src={require("../assets/amrinsightslogo.png")} alt="AMR Insights" />
         </a>
+        <a href="https://www.kidsforsdgs.org/vedanth-ramji"  target="_blank">
+          <img width={300} src={require("../assets/kids_for_sdgs.png")} alt="AMR Insights" />
+        </a>
         <a href="https://www.fao.org/antimicrobial-resistance/background/fao-role/renofarm/en/"  target="_blank">
           <img style={{padding: 20}} width={250} src={require("../assets/unrenofarmlogo.gif")} alt="AMR Insights" />
-        </a>
-        <a href="https://www.kidsforsdgs.org/vedanth-ramji"  target="_blank">
-          <img style={{padding: 20}} width={350} src={require("../assets/kids_for_sdgs.jpg")} alt="AMR Insights" />
         </a>
       </div>
 
       <div className="homepage_section_6">
         <h2 className="homepage_section_3_title">Upcoming & Recent News</h2>
-        <ul style={{listStyle: 'none'}}>
-          <li><b>June 14th, 2024: </b> Vedanth will be attending <a style={{color:'#2800b9'}} href="https://fao.zoom.us/webinar/register/WN_SV6F0g0VSUmtnfNiWbka_g#/registration" target="_blank">Introduction Webinar</a> to the FAO Reduce the Need for Antimicrobials on Farms for Sustainable Agrifood Systems Transformation (RENOFARM) initiative</li>
-          <li><b>June 5th, 2024: </b>The Thaavaram First World Congress on Plant AMR was launched. Click <Link style={{color:'#2800b9'}} to="/world-congress">here</Link> to learn more.</li>
+        <ol style={{width: '80%', margin: 'auto'}}>
+          <li><b>June 14th, 2024: </b> Vedanth will be attending <a style={{color:'#FFDB00'}} href="https://fao.zoom.us/webinar/register/WN_SV6F0g0VSUmtnfNiWbka_g#/registration" target="_blank">Introduction Webinar</a> to the FAO Reduce the Need for Antimicrobials on Farms for Sustainable Agrifood Systems Transformation (RENOFARM) initiative</li>
+          <li><b>June 5th, 2024: </b>The Thaavaram First World Congress on Plant AMR was launched. Click <Link style={{color:'#FFDB00'}} to="/world-congress">here</Link> to learn more.</li>
           <li><b>Sept 16-19th, 2023: </b>Thaavaram represented AMR in the environment at the United Nations 78th General Assembly in New York.</li>
-        </ul>
-        <div className="images">
+        </ol>
+        <div style={{textAlign: 'center'}} className="images">
           <img width={350} style={{margin: 5}} height={178} src={require('../assets/thaavaram_conference_speaking.png')}></img>
           <img width={350} style={{margin: 5}} src={require('../assets/thaavaram_un_sdg_img.png')}></img>
           <br/>
