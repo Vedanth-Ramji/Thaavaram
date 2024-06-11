@@ -16,7 +16,9 @@ const BrowsePage = () => {
   return !submissions.length ? (
     <CircularProgress />
   ) : (
-    <TableContainer>
+    <div>
+      <h1 style={{padding: 20, textAlign: 'center'}}>Real-time global plant antimicrobial usage data</h1>
+      <TableContainer>
       <Table aria-label="a dense table">
         <TableHead>
           <TableRow>
@@ -71,6 +73,11 @@ const BrowsePage = () => {
         </TableBody>
       </Table>
     </TableContainer>
+    <div style={{textAlign: 'center', padding: 20}}>
+    <h1>Taxon heatmaps of known pathogens from global metagenomics data</h1>
+    <img width={'100%'} src={require('../assets/taxon_heatmap.png')}></img>
+    </div>
+    </div>
   );
 };
 
