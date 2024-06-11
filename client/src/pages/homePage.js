@@ -174,6 +174,21 @@ function HomePage() {
           <img style={{padding: 20}} width={250} src={require("../assets/unrenofarmlogo.gif")} alt="AMR Insights" />
         </a>
       </div>
+
+      <div className="homepage_section_6">
+        <h2 className="homepage_section_3_title">Upcoming & Recent News</h2>
+        <ul style={{listStyle: 'none'}}>
+          <li><b>June 14th, 2024: </b> Vedanth will be attending <a style={{color:'#2800b9'}} href="https://fao.zoom.us/webinar/register/WN_SV6F0g0VSUmtnfNiWbka_g#/registration" target="_blank">Introduction Webinar</a> to the FAO Reduce the Need for Antimicrobials on Farms for Sustainable Agrifood Systems Transformation (RENOFARM) initiative</li>
+          <li><b>June 5th, 2024: </b>The Thaavaram First World Congress on Plant AMR was launched. Click <Link style={{color:'#2800b9'}} to="/world-congress">here</Link> to learn more.</li>
+          <li><b>Sept 16-19th, 2023: </b>Thaavaram represented AMR in the environment at the United Nations 78th General Assembly in New York.</li>
+        </ul>
+        <div className="images">
+          <img width={350} style={{margin: 5}} height={178} src={require('../assets/thaavaram_conference_speaking.png')}></img>
+          <img width={350} style={{margin: 5}} src={require('../assets/thaavaram_un_sdg_img.png')}></img>
+          <br/>
+          <img width={350} style={{margin: 5}} src={require('../assets/thaavaram_poster.png')}></img>
+        </div>
+      </div>
     </div>
   );
 }

@@ -119,7 +119,7 @@
   text-align: center;
   display: flex;
   justify-content: space-evenly;
-  background-color: #17594a;
+  background-color: #13005A;
 }
 
 .homepage_section_4_submit {
@@ -147,9 +147,16 @@
 }
 
 .announcement {
-  background-color: #13005A;
+  background-color: #13005a;
 }
 
 .homepage_section_5 {
   text-align: center;
+}
+
+.homepage_section_6 {
+  padding: 20px;
+  color: white;
+  text-align: center;
+  background-color: #17594a;
 }

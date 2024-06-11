@@ -24,7 +24,7 @@ const Header = () => {
         <Link to='/submit' className="header_link">Submit</Link>
         <Link to='/browse' className="header_link">Browse</Link>
         <Link to='/team' className="header_link">Team</Link>
-        <Link to='/world-congress' className="header_link">World Congress on AMR Incidence in Plants</Link>
+        {/* <Link to='/world-congress' className="header_link">World Congress on AMR Incidence in Plants</Link> */}
       </Menu>
     </div>
   );

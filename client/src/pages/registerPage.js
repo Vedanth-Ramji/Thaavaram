@@ -76,7 +76,7 @@ const RegisterPage = () => {
           </div>
         </div>
       </div>
-      <div style={{ marginTop: 10 }} className="registerPage_registerSection">
+      {/* <div style={{ marginTop: 10 }} className="registerPage_registerSection">
         <h2 style={{ textAlign: "center" }}>Register</h2>
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSfzbo9eJcLPsCID8f5h6EC9-N5VG-S7XN_GZg1zBxlq65Q9YA/viewform?embedded=true"
@@ -87,7 +87,7 @@ const RegisterPage = () => {
         >
           Loading…
         </iframe>
-      </div>
+      </div> */}
     </div>
   );
 };
