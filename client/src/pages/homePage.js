@@ -43,7 +43,7 @@ function HomePage() {
         </div>
       </div>
 
-      <div className="homepage_section_3">
+      <div style={{textAlign: 'center'}} className="homepage_section_3">
         <h1 className="homepage_section_3_title">About Us</h1>
 
         <div className="homepage_section_3_cards">
