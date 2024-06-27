@@ -14,7 +14,21 @@ const BrowsePage = () => {
   console.log(submissions);
 
   return !submissions.length ? (
+    <div>
     <CircularProgress />
+    <div style={{textAlign: 'center', padding: 20}}>
+    <h1>Taxon heatmaps of known pathogens from global metagenomics data</h1>
+    <img width={'100%'} src={require('../assets/taxon_heatmap.png')}></img>
+    </div>
+    <div style={{textAlign: 'center', padding: 20}}>
+    <h1>AMR drug classes found from global metagenomics data</h1>
+    <img width={'100%'} src={require('../assets/drug_classes.png')}></img>
+    </div>
+    <div style={{textAlign: 'center'}}>
+      <h1 style={{padding: 20, textAlign: 'center'}}>Data Processing at Thaavaram</h1>
+      <img style={{margin: 20}} width={'60%'} src={require('../assets/data_processing.png')}></img>
+    </div>
+    </div>
   ) : (
     <div>
       <h1 style={{padding: 20, textAlign: 'center'}}>Real-time global plant antimicrobial usage data</h1>
