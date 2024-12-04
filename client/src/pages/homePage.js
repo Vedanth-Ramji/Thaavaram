@@ -174,7 +174,7 @@ function HomePage() {
         <h2 className="homepage_section_3_title">Upcoming & Recent News</h2>
         <ol style={{width: '80%', margin: 'auto'}}>
           <li><b>Dec 5th, 2024: </b> Vedanth will be attending <a style={{color:'#FFDB00'}} href="https://www.fao.org/antimicrobial-resistance/news-and-events/news/news-details/en/c/1677690/" target="_blank">Launch of the Community of Practice on</a> Good Agriculture Practices and Prudent Antimicrobial Use to Reduce AMR Risks in the Agrifood Sector (RENOFARM-CoP)</li>
-          <li><b>June 14th, 2024: </b> Vedanth will be attending <a style={{color:'#FFDB00'}} href="https://fao.zoom.us/webinar/register/WN_SV6F0g0VSUmtnfNiWbka_g#/registration" target="_blank">Introduction Webinar</a> to the FAO Reduce the Need for Antimicrobials on Farms for Sustainable Agrifood Systems Transformation (RENOFARM) initiative</li>
+          <li><b>June 14th, 2024: </b> Vedanth will be attending <a style={{color:'#FFDB00'}} href="https://www.fao.org/antimicrobial-resistance/background/fao-role/renofarm/en/" target="_blank">Introduction Webinar</a> to the FAO Reduce the Need for Antimicrobials on Farms for Sustainable Agrifood Systems Transformation (RENOFARM) initiative</li>
           <li><b>June 5th, 2024: </b>The Thaavaram First World Congress on Plant AMR was launched. Click <Link style={{color:'#FFDB00'}} to="/world-congress">here</Link> to learn more.</li>
           <li><b>Sept 16-19th, 2023: </b>Thaavaram represented AMR in the environment at the United Nations 78th General Assembly in New York.</li>
         </ol>
