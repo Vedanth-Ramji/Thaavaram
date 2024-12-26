@@ -179,7 +179,6 @@ const BrowsePage = () => {
             }}
           />
         </div>
-        {/* <img width={"500px"} src=></img> */}
       </div>
       <div style={{ textAlign: "center" }}>
         <h1 style={{ padding: 20, textAlign: "center" }}>
@@ -190,6 +189,20 @@ const BrowsePage = () => {
           width={"60%"}
           src={require("../assets/data_processing.png")}
         ></img>
+      </div>
+      <div>
+        <h1 style={{padding: 20, textAlign: "center"}}>Other Useful Data Sources</h1>
+        <div>
+          <h2>FungAMR from Bédard et al. 2024.</h2>
+          <b>If you use this data, please cite: Bédard et al. 2024. FungAMR: A comprehensive portrait of antimicrobial resistance mutations in fungi. bioRxiv 2024.10.07.617009.</b>
+          <ol>
+            <li>54,666 mutation entries</li>
+            <li>92 species</li>
+            <li>202 genes</li>
+            <li>184 drugs</li>
+          </ol>
+          <p>Check out FungAMR: <a href="https://raw.githubusercontent.com/Landrylab/FungAMR/refs/heads/main/FungAMR.csv">here</a></p>
+        </div>
       </div>
     </div>
   );
